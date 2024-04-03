@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body class="bg-secondary">
+        
+        <div class="table-responsive p-4 card bg-secondary">
+            <button
+            type="button"
+            class="btn btn-lg col-2 mb-3 btn-dark"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+        >
+            Registrar Usuario
+        </button>
+            <table class="table table-dark">
+                <thead class="table-dark bg-dark">
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Edad</th>
+                        <th scape="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class=" bg-dark">
+                        <td scope="row">Pedro</td>
+                        <td>Perez</td>
+                        <td>21</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi dolorem officia quod modi, totam itaque accusantium laboriosam placeat eaque fugiat, animi, architecto eum suscipit voluptatibus in quas repellat magni.</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Marcela</td>
+                        <td>Perez</td>
+                        <td>18</td>
+                        <td>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae amet a provident dolor cumque quia voluptatibus, autem neque vero nostrum tempore distinctio totam magnam pariatur animi, odit similique dolore suscipit!
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Juan</td>
+                        <td>Perez</td>
+                        <td>25</td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa laborum pariatur neque quisquam incidunt, porro inventore dolorem, omnis rem aut iusto quos quae adipisci. Voluptatem facere id nesciunt aliquid soluta!
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+        <div
+            class="modal fade"
+            id="modalId"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                            MD Datos de Usuario
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="" class="form-label">Name</label>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Nombre</label>
+                                    <input type="tel" minlength="1" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Ingresa tu Nombre" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Apellido</label>
+                                    <input type="text" minlength="3" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Ingresa tu Apellido" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Edad</label>
+                                    <input type="number" min="18" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Ingresa tu Edad" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Correo</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Ingresa tu Correo" required/>
+                                </div>
+                                
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+        
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

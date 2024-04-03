@@ -1,0 +1,48 @@
+.font{
+    background-image: url(/img/heidi-kaden-kYxgm42SQso-unsplash.jpg);
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-size: 100%;
+    height: 700px;
+    ;
+}
+
+.card{
+    width: 300px;
+    margin: 10px;
+}
+
+.card img:horver{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: o.9;
+}
+
+section h2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+}
+
+.div-secundary{
+   background-image: url(/img/Bora.jpg);
+   background-size: 42%;
+   background-repeat: no-repeat;
+   width: 625px;
+   margin-left: 500px;
+   
+   
+}
+
+div h3{
+    font-size: 3rem;
+    margin-top: 150px;
+    padding: 20px;
+    margin-left:  250px;
+}
+
